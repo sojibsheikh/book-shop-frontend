@@ -3,7 +3,7 @@ import React from 'react'
 function NavbarView(props) {
     return (
         <React.Fragment>
-            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-md navbar-dark bg-danger">
                 
                 <button className="btn btn-outline-light" data-toggle="drawer" data-target="#amazonDrawer">
                 <i className="fas fa-sliders-h"></i>
@@ -32,7 +32,7 @@ function NavbarView(props) {
                 </div> 
 
                 <a className="navbar-brand pl-2" href="navbar.html">
-                <img src="assets/img/bookShop.png" style={{backgroundColor:"white",color:"white",borderRadius:"10px"}} height="50" width="100" alt="Book shop logo white" />
+                <img src="assets/img/bookShop.png" style={{backgroundColor:"",color:"white",borderRadius:"10px"}} height="50" width="100" alt="Book shop logo white" />
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,20 +59,20 @@ function NavbarView(props) {
                             <input type="text" className="form-control" size="50" name="query" id="query" />
                             <input type="text" name="category" id="category" value="book" hidden />
                             <div className="input-group-append">
-                                <button type="submit" className="btn btn-warning">
+                                <button type="submit" className="btn btn-primary">
                                 <i className="fas fa-search"></i>
                                 </button>
                             </div>
                         </div>
                     </form > 
                     <ul className="navbar-nav">  
-                        <li className="nav-item dropdown px-2">
+                        {/* <li className="nav-item dropdown px-2">
                         <a className="nav-link" href="#" id="prefLanguageDropdown" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <i className="fas fa-2x fa-language"></i>
                         </a>
                         <div className="dropdown-menu" aria-labelledby="prefLanguageDropdown">
-                            {/* <form className="p-3">
+                            <form className="p-3">
                             <div className="dropdown-divider"></div>
                             <div className="custom-control custom-radio mb-2">
                                 <input className="custom-control-input" type="radio" name="prefLang" id="englishLang" value="english"
@@ -103,9 +103,9 @@ function NavbarView(props) {
                                 </label>
                             </div>
                             <div className="dropdown-divider"></div>
-                            </form> */}
+                            </form>
                         </div>
-                        </li> 
+                        </li>  */}
                         
                         <li className="nav-item dropdown px-2">
                         <a className="nav-link" href="login.html" id="userAccount" role="button" data-toggle="dropdown"
@@ -120,8 +120,8 @@ function NavbarView(props) {
                         </div>
                         </li> 
                         <li className="nav-item px-2">
-                        <a className="nav-link" href="#"  aria-disabled=" true">
-                            <i className="fas fa-2x text-light fa-shopping-cart" />
+                        <a className="nav-link" href="/"  aria-disabled=" true">
+                            <i className="fas fa-2x text-light fa-cart-arrow-down" />
                             <span className="badge badge-warning badge-pill">0</span>
                         </a>
                         </li > 

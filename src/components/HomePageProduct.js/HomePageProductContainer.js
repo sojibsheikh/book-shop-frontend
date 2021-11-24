@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import NavbarView from './NavbarView'
+import HomePageProductView from './HomePageProductView';
 
-export class NavbarContainer extends Component {
+export default class HomePageProductContainer extends Component {
     constructor(props){
-        super(props)
+        super(props);
 
         this.state = {
             
@@ -13,10 +13,8 @@ export class NavbarContainer extends Component {
     render() {
         return (
             <div>
-               <NavbarView name="Book Shop"/> 
+                <HomePageProductView />
             </div>
         )
     }
 }
-
-export default NavbarContainer
