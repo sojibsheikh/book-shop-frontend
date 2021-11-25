@@ -44,17 +44,21 @@ function NavbarView(props) {
                     <form className="form-inline px-lg-5" novalidate method="get">
                         <div className="input-group">
                             <div className="input-group-prepend">
-                                <div className="dropdown">
+                                    <button className="btn btn-secondary " name="btnCategory" type="button"
+                                        id="btnCategory" data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
+                                        Search
+                                    </button>
+                                {/* <div className="dropdown">
                                     <button className="btn btn-secondary dropdown-toggle" name="btnCategory" type="button"
                                         id="btnCategoryDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        All
+                                        Search
                                     </button>
                                     <div className="dropdown-menu" aria-labelledby="btnCategoryDropdownMenu">
                                         <a className="dropdown-item" href="#">All Books</a>
                                         <a className="dropdown-item" href="#">Our Collection</a>
                                         <a className="dropdown-item" href="#">User Collection</a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <input type="text" className="form-control" size="50" name="query" id="query" />
                             <input type="text" name="category" id="category" value="book" hidden />

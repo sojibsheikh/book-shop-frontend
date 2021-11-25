@@ -7,16 +7,30 @@ function HomePageProductView(props) {
             <div className="container mb-5" style={{marginTop: "-200px"}}>
                
                 <div className="row">
-                    <div className="col-lg-3">
+                <div className="col-lg-3">
                         <div className="card my-2 my-lg-0">
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/"><img src="assets/img/product_images/product02.png" alt="product View 01" className="img-fluid" /></a>
+                                <a href="/"><img src="assets/img/product_images/bookshop1.jpg" alt="product view 01" className="img-fluid" /></a>
                             </div>
                             <div className="card-footer bg-transparent py-0">
                                 <div className="row my-1">
+                                    <div className="col-md">
+                                        <p className=" text-success">
+                                            KURBANI & AKIKA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
+                                    <div className="col-md">
+                                        <p className="font-weight-bold text-success">
+                                            ASD GALIB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
                                     <div className="col-md-6">
                                         <p className="font-weight-bold text-danger">
-                                            <i className="fas fa-rupee-sign"></i> 150.00
+                                            650TK
                                         </p>
                                     </div>
                                     <div className="col-md-6">
@@ -30,13 +44,27 @@ function HomePageProductView(props) {
                     <div className="col-lg-3">
                         <div className="card my-2 my-lg-0">
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/"><img src="assets/img/product_images/product03.png" alt="product View 01" className="img-fluid" /></a>
+                                <a href="/"><img src="assets/img/product_images/bookshop1.jpg" alt="product view 01" className="img-fluid" /></a>
                             </div>
                             <div className="card-footer bg-transparent py-0">
                                 <div className="row my-1">
+                                    <div className="col-md">
+                                        <p className=" text-success">
+                                            KURBANI & AKIKA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
+                                    <div className="col-md">
+                                        <p className="font-weight-bold text-success">
+                                            ASD GALIB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
                                     <div className="col-md-6">
                                         <p className="font-weight-bold text-danger">
-                                            <i className="fas fa-rupee-sign"></i> 650.00
+                                            650TK
                                         </p>
                                     </div>
                                     <div className="col-md-6">
@@ -50,13 +78,27 @@ function HomePageProductView(props) {
                     <div className="col-lg-3">
                         <div className="card my-2 my-lg-0">
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/"><img src="assets/img/product_images/product03.png" alt="product view 01" className="img-fluid" /></a>
+                                <a href="/"><img src="assets/img/product_images/bookshop1.jpg" alt="product view 01" className="img-fluid" /></a>
                             </div>
                             <div className="card-footer bg-transparent py-0">
                                 <div className="row my-1">
+                                    <div className="col-md">
+                                        <p className=" text-success">
+                                            KURBANI & AKIKA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
+                                    <div className="col-md">
+                                        <p className="font-weight-bold text-success">
+                                            ASD GALIB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
                                     <div className="col-md-6">
                                         <p className="font-weight-bold text-danger">
-                                            <i className="fas fa-rupee-sign"></i> 550.00
+                                            650TK
                                         </p>
                                     </div>
                                     <div className="col-md-6">
@@ -70,13 +112,27 @@ function HomePageProductView(props) {
                     <div className="col-lg-3">
                         <div className="card my-2 my-lg-0">
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/"><img src="assets/img/product_images/product02.png" alt="product view 01" className="img-fluid" /></a>
+                                <a href="/"><img src="assets/img/product_images/bookshop1.jpg" alt="product view 01" className="img-fluid" /></a>
                             </div>
                             <div className="card-footer bg-transparent py-0">
                                 <div className="row my-1">
+                                    <div className="col-md">
+                                        <p className=" text-success">
+                                            KURBANI & AKIKA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
+                                    <div className="col-md">
+                                        <p className="font-weight-bold text-success">
+                                            ASD GALIB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
                                     <div className="col-md-6">
                                         <p className="font-weight-bold text-danger">
-                                            <i className="fas fa-rupee-sign"></i> 750.00
+                                            650TK
                                         </p>
                                     </div>
                                     <div className="col-md-6">
@@ -94,13 +150,27 @@ function HomePageProductView(props) {
                     <div className="col-lg-3">
                         <div className="card my-2 my-lg-0">
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/"><img src="assets/img/product_images/product02.png" alt="product view 01" className="img-fluid" /></a>
+                                <a href="/"><img src="assets/img/product_images/bookshop1.jpg" alt="product view 01" className="img-fluid" /></a>
                             </div>
                             <div className="card-footer bg-transparent py-0">
                                 <div className="row my-1">
+                                    <div className="col-md">
+                                        <p className=" text-success">
+                                            KURBANI & AKIKA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
+                                    <div className="col-md">
+                                        <p className="font-weight-bold text-success">
+                                            ASD GALIB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
                                     <div className="col-md-6">
                                         <p className="font-weight-bold text-danger">
-                                            <i className="fas fa-rupee-sign"></i> 150.00
+                                            650TK
                                         </p>
                                     </div>
                                     <div className="col-md-6">
@@ -114,13 +184,27 @@ function HomePageProductView(props) {
                     <div className="col-lg-3">
                         <div className="card my-2 my-lg-0">
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/"><img src="assets/img/product_images/product03.png" alt="product view 01" className="img-fluid" /></a>
+                                <a href="/"><img src="assets/img/product_images/bookshop1.jpg" alt="product view 01" className="img-fluid" /></a>
                             </div>
                             <div className="card-footer bg-transparent py-0">
                                 <div className="row my-1">
+                                    <div className="col-md">
+                                        <p className=" text-success">
+                                            KURBANI & AKIKA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
+                                    <div className="col-md">
+                                        <p className="font-weight-bold text-success">
+                                            ASD GALIB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
                                     <div className="col-md-6">
                                         <p className="font-weight-bold text-danger">
-                                            <i className="fas fa-rupee-sign"></i> 650.00
+                                            650TK
                                         </p>
                                     </div>
                                     <div className="col-md-6">
@@ -134,13 +218,27 @@ function HomePageProductView(props) {
                     <div className="col-lg-3">
                         <div className="card my-2 my-lg-0">
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/"><img src="assets/img/product_images/product03.png" alt="product view 01" className="img-fluid" /></a>
+                                <a href="/"><img src="assets/img/product_images/bookshop1.jpg" alt="product view 01" className="img-fluid" /></a>
                             </div>
                             <div className="card-footer bg-transparent py-0">
                                 <div className="row my-1">
+                                    <div className="col-md">
+                                        <p className=" text-success">
+                                            KURBANI & AKIKA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
+                                    <div className="col-md">
+                                        <p className="font-weight-bold text-success">
+                                            ASD GALIB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
                                     <div className="col-md-6">
                                         <p className="font-weight-bold text-danger">
-                                            <i className="fas fa-rupee-sign"></i> 550.00
+                                            650TK
                                         </p>
                                     </div>
                                     <div className="col-md-6">
@@ -154,13 +252,27 @@ function HomePageProductView(props) {
                     <div className="col-lg-3">
                         <div className="card my-2 my-lg-0">
                             <div className="card-body d-flex justify-content-center">
-                                <a href="/"><img src="assets/img/product_images/product02.png" alt="product view 01" className="img-fluid" /></a>
+                                <a href="/"><img src="assets/img/product_images/bookshop1.jpg" alt="product view 01" className="img-fluid" /></a>
                             </div>
                             <div className="card-footer bg-transparent py-0">
                                 <div className="row my-1">
+                                    <div className="col-md">
+                                        <p className=" text-success">
+                                            KURBANI & AKIKA
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
+                                    <div className="col-md">
+                                        <p className="font-weight-bold text-success">
+                                            ASD GALIB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row ">
                                     <div className="col-md-6">
                                         <p className="font-weight-bold text-danger">
-                                            <i className="fas fa-rupee-sign"></i> 750.00
+                                            650TK
                                         </p>
                                     </div>
                                     <div className="col-md-6">
