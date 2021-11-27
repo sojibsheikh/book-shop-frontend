@@ -3,7 +3,7 @@ import React from 'react'
 function NavbarView(props) {
     return (
         <React.Fragment>
-            <nav className="navbar navbar-expand-md navbar-dark bg-danger">
+            <nav className="navbar navbar-expand-md navbar-dark bg-success">
                 
                 <button className="btn btn-outline-light" data-toggle="drawer" data-target="#amazonDrawer">
                 <i className="fas fa-sliders-h"></i>
@@ -63,7 +63,7 @@ function NavbarView(props) {
                             <input type="text" className="form-control" size="50" name="query" id="query" />
                             <input type="text" name="category" id="category" value="book" hidden />
                             <div className="input-group-append">
-                                <button type="submit" className="btn btn-primary">
+                                <button type="submit" className="btn btn-secondary">
                                 <i className="fas fa-search"></i>
                                 </button>
                             </div>
