@@ -118,13 +118,13 @@ function NavbarView(props) {
                         </a>
                         <div className="dropdown-menu px-3" aria-labelledby="userAccount">
                             <div className="d-flex flex-column justify-content-center">
-                            <a href="login.html" className="btn btn-warning w-75 btn-sm font-weight-bold">Signin</a>
-                            <small>New customer?<a href="register.html"> Start here.</a></small>
+                            <a href="/" className="btn btn-warning w-75 btn-sm font-weight-bold">Signin</a>
+                            <small>New customer?<a href="/"> Start here.</a></small>
                             </div>
                         </div>
                         </li> 
                         <li className="nav-item px-2">
-                        <a className="nav-link" href="/"  aria-disabled=" true">
+                        <a className="nav-link" href="/"  ariaDisabled=" true">
                             <i className="fas fa-2x text-light fa-cart-arrow-down" />
                             <span className="badge badge-warning badge-pill">0</span>
                         </a>

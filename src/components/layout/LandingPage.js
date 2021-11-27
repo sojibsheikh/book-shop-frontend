@@ -1,8 +1,9 @@
 import React from 'react';
 import NavbarContainer from './Navbar/NavbarContainer';
 import ImageSlider from './ImageSlider';
-import HomePageProductContainer from '../HomePageProduct.js/HomePageProductContainer';
+import HomePageProductContainer from '../HomePageProduct/HomePageProductContainer';
 import Footer from './Footer';
+import Login from '../Login/LoginContainer'
 
 function LandingPage() {
     return (
@@ -12,6 +13,7 @@ function LandingPage() {
                     <ImageSlider />
                     <HomePageProductContainer/>
                </div>
+            <Login />
             <Footer />
        </React.Fragment>
     )
