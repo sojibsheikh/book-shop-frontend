@@ -31,7 +31,7 @@ function NavbarView(props) {
                 </div>
                 </div> 
 
-                <a className="navbar-brand pl-2" href="navbar.html">
+                <a className="navbar-brand pl-2" href="/">
                 <img src="assets/img/bookShop.png" style={{backgroundColor:"",color:"white",borderRadius:"10px"}} height="50" width="100" alt="Book shop logo white" />
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
