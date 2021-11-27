@@ -20,8 +20,8 @@ function NavbarView(props) {
                     </div>
                     <div className="drawer-body">
                     <h6 className="text-muted text-uppercase">Help & Settings</h6>
-                    <a href="your_account.html" className="btn btn-outline-success my-2 btn-sm">Your Account</a>
-                    <a href="login.html" className="btn btn-warning my-2  btn-sm">Sign in</a>
+                    <a href="/" className="btn btn-outline-success my-2 btn-sm">Your Account</a>
+                    <a href="/" className="btn btn-warning my-2  btn-sm">Sign in</a>
                     </div>
                     <div className="drawer-footer">
                     <button type="button" className="btn btn-outline-danger btn-sm" data-dismiss="drawer" aria-label="Close">
