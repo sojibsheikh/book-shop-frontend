@@ -9,7 +9,8 @@ function LandingPage() {
     return (
        <React.Fragment>
            <NavbarContainer />
-               
+               <ImageSlider />
+               <HomePageProductContainer />
                <Login/>
             <Footer />
        </React.Fragment>
