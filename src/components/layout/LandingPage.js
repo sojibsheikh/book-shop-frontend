@@ -4,6 +4,7 @@ import ImageSlider from './ImageSlider';
 import HomePageProductContainer from '../HomePageProduct/HomePageProductContainer';
 import Footer from './Footer';
 import Login from '../Login/LoginContainer';
+import ProductSearchView from '../ProductSearch/ProductSearchView';
 
 function LandingPage() {
     return (
@@ -12,6 +13,7 @@ function LandingPage() {
                <ImageSlider />
                <HomePageProductContainer />
                <Login/>
+               <ProductSearchView/>
             <Footer />
        </React.Fragment>
     )

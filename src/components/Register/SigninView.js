@@ -4,7 +4,7 @@ function LoginView(props) {
     return (
         <React.Fragment>
             <div className="container mb-5">
-                <div className="card mx-auto mt-5 pb-3 shadow rounded" style="width: 25rem ">
+                <div className="card mx-auto mt-5 pb-3 shadow rounded" >
                     <div className="card-body">
                         <h4 className="card-title">Register</h4>
                         <form className="needs-validation" autocomplete="off" method="post" action="#" novalidate>
@@ -61,10 +61,10 @@ function LoginView(props) {
                         <hr className="hr-text" data-content="OR" />
 
                         <p className ="text-center">Already have an account?<a href="login.html">Sign in <i className ="fas fa-caret-right"></i></a></p>
-                        <a href="#" className ="btn btn-outline-success btn-sm w-100 mt-2" >
+                        <a href="/" className ="btn btn-outline-success btn-sm w-100 mt-2" >
                         <i className ="fab fa-google"></i> Sign in with Google
                         </a>
-                        <a href="#" className ="btn btn-outline-primary btn-sm w-100 mt-2" >
+                        <a href="/" className ="btn btn-outline-primary btn-sm w-100 mt-2" >
                         <i className ="fab fa-facebook-square"></i> Sign in with Facebook
                         </a> 
                     </div>
